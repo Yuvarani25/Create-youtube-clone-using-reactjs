@@ -6,17 +6,18 @@
   display: flex;
  
 }
-.logo{
-  margin-left: 50px;
-}
+
 input{
-  margin: 100px 0px 0px 1200px;
-  height: 30px;
-  width:300px;
-}
-span{
+  margin: 50px 0px 0px 500px;
+  height: 40px;
+  width:800px;
   border: 2px solid black;
-  padding: 4px 4px 6px 4px;
+  border-radius: 10px;
+}
+.span{
+  border: 2px solid black;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
 }
 .icon{
   font-size: 50px;
@@ -27,13 +28,16 @@ span{
  
 }
 .Right .row1 .img1{
+  margin-top: 40px;
   margin-left: 180px;
 }
 .Right .row2 .img1{
   margin-left: 180px;
+  margin-top: 10px;
 }
 .Right .row3 .img1{
   margin-left: 180px;
+  margin-top: 10px;
 }
 .Right .row1{
   display: flex;
@@ -43,4 +47,23 @@ span{
 }
 .Right .row3{
   display: flex;
+}
+.name img {
+  height: 35px;
+  width: 35px;
+  border-radius: 50px;
+  font-size: 30px;
+  margin: 10px 10px 0px 0px;
+}
+.img1 p{
+  width: 450px;
+}
+.name .icon{
+ 
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    font-size: 30px;
+    margin: 10px 10px 0px 0px;
+  
 }
